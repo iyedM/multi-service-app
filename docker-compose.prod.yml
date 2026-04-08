@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    # Production specific overrides
+    # e.g., removal of volumes or different entrypoints
+
+  backend:
+    environment:
+      - NODE_ENV=production
