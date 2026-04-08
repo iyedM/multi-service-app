@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+public
+.env
+Dockerfile
+.dockerignore
+.git
+.github
+tests
+coverage
